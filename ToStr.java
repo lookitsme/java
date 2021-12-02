@@ -12,6 +12,6 @@ class ToStr {
      public static void main(String[] args) {
        ToStr s = new ToStr(191604, "Able Gurung");
        System.out.println("The student details are:");
-       System.out.println(s);
+       System.out.println(s);// The object ToStr gets run as string with the help of toString method. 
     }
  }
