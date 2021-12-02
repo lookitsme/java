@@ -10,7 +10,7 @@ class Image {
         this.product_type = Type;
         this.product_color = color;
     }
-
+ 
     public void getInfo() {
         System.out.print("Dimension :" + this.product_dimension + "\n Type :" + this.product_type + "\n Color:"
                 + this.product_color);
