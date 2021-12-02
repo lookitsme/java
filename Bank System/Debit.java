@@ -11,7 +11,7 @@ class Debit extends Bank {
             this.AccountName=AN;
         }
     public Debit (){
-        this("1224 4475 1142", 127, " Able Gurung ");
+     
     }
     public void getDebitdetails(){
        
