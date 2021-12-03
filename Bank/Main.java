@@ -7,7 +7,6 @@ public class Main {
         Payment P = new Payment();
         
         P.menu();
-        P.calculate();
-        P.get_details();
+        
     }   
 }
