@@ -1,6 +1,6 @@
-package Pizza; 
+package Pizza;
+class Pizza{
 
-class Pizza {
     public static final int DELUXE_PIZZA = 0;
     public static final int STANDARD_PIZZA = 1;
 
@@ -8,9 +8,11 @@ class Pizza {
     boolean has_topping_1 = false;
     boolean has_topping_2 = false;
     boolean has_topping_3 = false;
+
     boolean is_free_pizza = false;
 
-    public int calculate_price() {
+    public int calculate_price()
+    {
         int price = 100;
         if (pizza_type == DELUXE_PIZZA) {
             price += 100;
@@ -34,17 +36,20 @@ class Pizza {
         return price;
     }
 
-    public Pizza() {}
+    public Pizza () {
 
-    public int get_type() {
+    }
+
+    public int get_type ()
+    {
         return this.pizza_type;
     }
 
-    public void set_pizza_free() {
+    public void set_pizza_free () {
         this.is_free_pizza = true;
     }
 
-    public void set_type(int p_type) {
+    public void set_type( int p_type ) {
         this.pizza_type = p_type;
     }
 
@@ -52,15 +57,18 @@ class Pizza {
         this.pizza_type = p_type;
     }
 
-    public void add_topping_1() {
+    public void add_topping_1 ()
+    {
         this.has_topping_1 = true;
     }
 
-    public void add_topping_2() {
+    public void add_topping_2 ()
+    {
         this.has_topping_2 = true;
     }
 
-    public void add_topping_3() {
+    public void add_topping_3 ()
+    {
         this.has_topping_3 = true;
     }
 }
