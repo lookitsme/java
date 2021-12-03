@@ -5,7 +5,6 @@ class Order {
     ArrayList<Pizza> pizzas;
     int n_standard_pizzas;
     int n_deluxe_pizzas;
-
     Scanner scanner;
 
     int read_int ()
